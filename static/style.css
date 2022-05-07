@@ -1,0 +1,295 @@
+/* header{
+    background-color: rgb(88, 84, 163);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+}
+
+footer{
+    background-color: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+    text-align: center;
+}
+textarea{
+    display: block;
+    margin: auto;
+}
+input[name="save"]{
+    display: block;
+    margin: auto;
+}
+p{
+    white-space: pre-wrap;
+    border: solid 1px #000000;
+    width: 500px;
+    margin: auto;
+}
+div{
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+a[name="question_update"]{
+    display: block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+} */
+
+/* .a_center{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+.list_div{
+    width: 760px;
+    height: 50px;
+    background-color: #00bcd4;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+
+.textarea_center{
+    display: block;
+    margin: auto;
+}
+.input_center{
+    display: block;
+    margin: auto;
+} */
+
+.a_button{
+    color: #fff;
+    background: #00bcd4;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #00bcd4;
+    transition: 0.3s;
+}
+
+.a_button:hover{
+    color: #00bcd4;
+    background: #fff;
+    border: 1px solid #00bcd4;
+}
+
+.a_button2{
+    color: rgb(255, 255, 255);
+    background: rgb(26, 152, 47);
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #00bcd4;
+    transition: 0.3s;
+}
+
+.a_button2:hover{
+    color: #ffffff;
+    background: rgb(255, 208, 0);
+    border: 1px solid #00bcd4;
+}
+
+
+.input_button{
+    color: #fff;
+    background: #00bcd4;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    border: 1px solid #00bcd4;
+    transition: 0.3s;
+}
+
+.input_button:hover{
+    color: #00bcd4;
+    background: #fff;
+    border: 1px solid #00bcd4;
+}
+
+
+.img_center{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.img2{
+    max-width: 100%
+}
+
+.p_center{
+    white-space: pre-wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.p_center1{
+    text-align: center;
+    margin: 0;
+}
+
+.textarea_center{
+    display: block;
+    margin: auto;
+}
+.input_center{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.list_div{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Q{
+    height: 70px;
+}
+
+.list{
+    width: 100%;
+    white-space: pre-wrap;
+    margin: auto;
+    font-size: smaller;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.list2{
+    white-space: pre-wrap;
+}
+
+.h1_center{
+    text-align: center;
+}
+
+.div_center{
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #00bcd4;
+    text-align: center;
+    color: #fff;
+}
+
+/* よくある質問 */
+.accordions {
+    margin-bottom: 30px;
+}
+
+.accordion__body + .accordion__title {
+    margin-top: 20px;
+}
+
+.accordion__btn {
+    position: relative;
+    display: flex;
+    width: 100%;
+    border: 2px solid #00bcd4;
+    background-color: #00bcd4;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: left;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.accordion__btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    transform: translateY(-50%);
+}
+
+.accordion__btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    display: block;
+    width: 2px;
+    height: 20px;
+    background-color: currentColor;
+    transform: translateY(-50%);
+}
+
+.accordion__btn:focus,
+.accordion__btn:hover {
+    background-color: #fff;
+    color: #00bcd4;
+}
+
+.accordion__btn--active::after {
+    content: none;
+}
+
+.accordion__body {
+    display: none;
+    border: 1px solid #ddd;
+    margin-inline-start: 0;
+}
+
+.accordion__body > *:last-child {
+    margin-bottom: 0;
+}
+
+.accordion__body--active {
+    display: block;
+    padding: 0 80px;
+}
+
+.accordion__text {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+footer{
+    background-color: #00bcd4;
+    color: rgb(255, 255, 255);
+    line-height: 150px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sunabaco_logo{
+    width: 35%;
+    margin-top: 70px;
+}

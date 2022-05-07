@@ -1,0 +1,13 @@
+{% extends"base.html" %}
+{% block content %}
+
+<p class="p_center">{{tpl_task['tpl_task']}}</p>
+
+<form action="/answer" method="post" enctype="multipart/form-data">
+    <textarea class="textarea_center" name="tpl_answer" id="" cols="70" rows="10" warp="hard" placeholder="こちらに回答内容を入力してください。"></textarea>
+    <p class="p_center1">画像をアップロード</p>
+    <input class="input_center" type="file" name="upload" id="input1"/>
+    <img class="img_center" id="sample1">
+    <input class="input_center" type="submit" name="save" value="送信">
+</form>
+{% endblock %}
